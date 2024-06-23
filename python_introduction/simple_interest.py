@@ -1,7 +1,7 @@
 # Define variables
-principle = 1000 # Principle amount in dollars
-rate = 0.05 # Representing the 5% annaul interest rate
-time = 3 # Time in years
+principle = 1000 
+rate = 0.05 
+time = 3 
 
 # Calculate simple interest
 interest = principle * rate * time 
