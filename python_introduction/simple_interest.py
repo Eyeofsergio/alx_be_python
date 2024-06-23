@@ -8,5 +8,5 @@ interest = principle * rate * time
 
 
 # Print the calculated intrest
-print(f"The simple interest is:",  interest)
+print(f"The simple interest is:", interest)
 
