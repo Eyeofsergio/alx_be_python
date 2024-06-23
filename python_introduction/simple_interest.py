@@ -5,8 +5,8 @@ t = time = 3 # Time in years
 
 # Calculate simple interest
 i = interest = principle * rate * time 
-interest = 1000 * 0.05 * 3
+
 
 # Print the calculated intrest
-print(i)
+print("The simple interest is:",  i)
 
