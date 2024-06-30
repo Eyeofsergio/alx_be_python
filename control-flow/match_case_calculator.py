@@ -8,27 +8,27 @@ num2 = float(input("Enter the second number: "))
 operation = ("Choose the operation, (+, -, *, /): ")
 
 # Use match operation to perform calculations
-match operation: 
-    case '+' :
-        result = num1 + num2
-        print(f"The result is {result}.")
+if '+':
+    result = num1 + num2
+    print(f"The result is {result}.")
 
-    case '-' : 
-        result = num1 - num2
-        print(f"The result is {result}.")
+elif '-':
+    result = num1 - num2
+    print(f"The result is {result}.")
 
-    case '*' :
-        result = num1 * num2
-        print(f"The result is {result} .") 
+elif  '*':
+    result = num1 * num2
+    print(f"The result is {result} .") 
 
 # Use of "if" and "else" and the error symbol to display error
-    case '/' :
-        if num2 != 0:
-            result = num1 / num2
-            print(f"The result is {result} .")
-        else:
-            print("Cannot divide by zero.")
-    case _:
-        print("Invalid operation chosen.")
-
-
+elif  '/' :
+    
+    if num2 != 0:
+        result = num1 / num2
+        print(f"The result is {result} .")
+    
+    else:
+        print("Cannot divide by zero.")
+            
+else:
+    print("Invalid operation chosen.")
