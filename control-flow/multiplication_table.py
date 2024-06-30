@@ -2,6 +2,6 @@
 number = float(input("Enter a number to see its multiplication table: "))
 
 # Apply the range of the mulitplication
-for x in range(1, 10 + 1): 
+for x in range(1, 11): 
     product = number * x
     print(f"{number} * {x} = {product}")
