@@ -33,4 +33,4 @@ match priority:
     case _:
         reminder = "Invalid priority entered. Please eter high, medium, or low."
 
-print(f"Daily Reminder: {reminder}")
+print(f"Reminder: {reminder}")
