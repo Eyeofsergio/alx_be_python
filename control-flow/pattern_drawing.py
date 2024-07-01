@@ -5,7 +5,7 @@ if size <= 0:
     print(f"The size should be a number above 0. ") 
 
 row = 0
-for row in range (size): 
+while row < size: 
     for _ in range(size):
         print("*", end="")
     print()
