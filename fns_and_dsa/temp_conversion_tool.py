@@ -24,6 +24,6 @@ elif unit == 'F':
     print(f"temperature F is equal to {converted_temperature}C")
 
 else:
-    print("Invalid unit. Please enter 'C' for Celsius of 'F' for Fahrenheit.")
-    
+    print("Invalid temperature. Please enter a numeric value.")
+
 
