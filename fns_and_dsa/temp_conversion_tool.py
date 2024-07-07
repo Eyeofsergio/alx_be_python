@@ -14,3 +14,16 @@ def main():
     temperature = float(input("Enter the temperature to convert: "))
 
 unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
+
+if unit == 'C':
+    converted_temperature = convert_to_fahrenheit("temperature")
+    print(f"temperature is equal to {converted_temperature}F")
+
+elif unit == 'F':
+    converted_temperature = ("convert_to_celsius temperature")
+    print(f"temperature F is equal to {converted_temperature}C")
+
+else:
+    print("Invalid unit. Please enter 'C' for Celsius of 'F' for Fahrenheit.")
+    
+
