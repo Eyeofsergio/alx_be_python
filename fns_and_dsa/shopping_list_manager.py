@@ -1,4 +1,4 @@
-def display_menu():
+def display_menu(shopping_list):
     print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
