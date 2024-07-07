@@ -28,7 +28,7 @@ def main():
                 print("Shopping List:")
             
             else:
-                print("The shooping list is empty.")
+                print("The shopping list is empty.")
         elif choice == '4':
                 print("Goodbye!")
                 break
