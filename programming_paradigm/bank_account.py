@@ -1,7 +1,7 @@
 # Create class definition to bank account
 
 class BankAccount:
-    def _init_(self, initial_balance=0):
+    def __init__(self, initial_balance=0):
         self._account_balance = initial_balance 
 
 # Def class for Deposit
