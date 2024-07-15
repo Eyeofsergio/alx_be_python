@@ -10,4 +10,4 @@ def safe_divide(numerator, denominator):
         result = numerator/denominator
         return f"The result of the division ia {result}"
     except ValueError:
-        return "Error: Please enter numeric vaules only."
+        return "Error: Please enter numeric values only."
