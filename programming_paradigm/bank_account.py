@@ -21,7 +21,7 @@ class BankAccount:
 # Display Balance
 
     def display_balance(self):
-        print(f"Current Balance: {self._account_balance}")
+        print(f"Current Balance: ${self._account_balance:.2f}")
 
     def get_balance(self):
         return self._account_balance
