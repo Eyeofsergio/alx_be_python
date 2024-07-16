@@ -8,7 +8,7 @@ def main():
     library.add_book(Book("1984", "George Orwell"))
 
     # Initial list of available books
-    print("Available books after setup:")
+    print("Avaliable books after setup:")
     library.list_available_books()
 
     # Simulate checking out a book

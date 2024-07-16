@@ -20,19 +20,19 @@ class Book:
             return True
         return False
     
-    # Avaliablity
+    # Availablity
 
-    def is_avaliable(self):
+    def is_available(self):
         return not self._is_checked_out
     
     #Library Class
 
 class Library:
     def __init__(self):
-        self._books =[]
+        self._books = []
 
-    def add_book(self, Book):
-        self._books.append(Book)
+    def add_book(self, book):
+        self._books = ()
 
     #check out book
     
@@ -54,10 +54,10 @@ class Library:
                 else:
                     print(f"The book '{title}' was not checked out")
 
-    def list_avaliable_books(self):
-        avaliable_books = {book for book in self._books if book.is_avaliabe()}
-        if avaliable_books:
-            for book in avaliable_books:
+    def list_available_books(self):
+        available_books = {book for book in self._books if book.is_availabe()}
+        if available_books:
+            for book in available_books:
                 print(f"{book.title} by {book.author}")
             else:
-                print("No avaliable books.")
+                print("No available books.")
