@@ -1,17 +1,13 @@
-from book_class import Book
+from polymorphism_demo import Shape, Rectangle, Circle
 
 def main():
-    # Creating an instance of Book
-    my_book = Book("1984", "George Orwell", 1949)
+    # Create instances of Rectangle and Circle
+    rect = Rectangle(5, 3)
+    circ = Circle(2)
 
-    # Demonstrating the __str__ method
-    print(my_book)  # Expected to use __str__
-
-    # Demonstrating the __repr__ method
-    print(repr(my_book))  # Expected to use __repr__
-
-    # Deleting a book instance to trigger __del__
-    del my_book
+    # Print the areas of the shapes
+    print(f"The area of the rectangle is: {rect.area()}")
+    print(f"The area of the circle is: {circ.area()}")
 
 if __name__ == "__main__":
     main()
