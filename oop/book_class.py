@@ -3,13 +3,18 @@ class Book:
     self.title = title
     self.author = author 
     self.year = year
-
-def __del__(self):
-  print(f"Deleting '{self.title}'")
-
-  def __str__(self):
-    return(f"{self.title} by {self.author} in {self.year}")
   
-  def __repr__(self):
-    return f"Book('{self.title}', '{self.author}', '{self.year}')" 
+ def __del__(self):
+  print()
+
+ def __str__(self):
+    return
   
+ def __repr__(self):
+    return
+  
+if __name__ == "__main__":
+  book = Book
+  print(book)
+  print(repr(book))
+  del book 
