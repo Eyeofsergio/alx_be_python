@@ -5,13 +5,13 @@ class Book:
     self.year = year
   
  def __del__(self):
-  print()
+  print(f"Deleting (title of the book")
 
  def __str__(self):
-    return
+    return f"(title) by (author), published in (year)"
   
  def __repr__(self):
-    return
+    return f"Book('{self.title}', '{self.author}', {self.year})" 
   
 if __name__ == "__main__":
   book = Book
