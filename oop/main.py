@@ -1,13 +1,13 @@
-from polymorphism_demo import Shape, Rectangle, Circle
+from class_static_methods_demo import Calculator
 
 def main():
-    # Create instances of Rectangle and Circle
-    rect = Rectangle(5, 3)
-    circ = Circle(2)
+    # Using the static method
+    sum_result = Calculator.add(10, 5)
+    print(f"The sum is: {sum_result}")
 
-    # Print the areas of the shapes
-    print(f"The area of the rectangle is: {rect.area()}")
-    print(f"The area of the circle is: {circ.area()}")
+    # Using the class method
+    product_result = Calculator.multiply(10, 5)
+    print(f"The product is: {product_result}")
 
 if __name__ == "__main__":
     main()

@@ -2,7 +2,7 @@ import math
 
 class Shape:
     def area(self):
-        raise
+        raise NotImplementedError
 
 class Rectangle(Shape):
     def __init__(self, length, width):
