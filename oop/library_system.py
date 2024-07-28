@@ -40,14 +40,7 @@ class Library:
         for book in self.books:
           print(book)
                 
-book1 = Book("Book: Pride and Prejudice", "Jane Austen")
 
-ebook1 = EBook("Snow Crash", "Neal Stephenson", 500)
 
-pbook1 = PrintBook("The catcher in the rye", "J.D Salinger", 234) 
-
-print(book1)
-print(ebook1)
-print(pbook1)
 
 
